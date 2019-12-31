@@ -65,7 +65,7 @@ const About: React.FunctionComponent<AboutProps> = props => {
       <AboutPageTitle>
         <h2>About StoryHub</h2>
         <p>
-          StoryHub is a beautiful Gatsby Blog theme designed to showcase your
+          Thanh Nguyen's blog is a beautiful React Blog theme designed to showcase your
           work in style. Perfect for designers, artists, photographers and
           developers to use for their portfolio website.
         </p>

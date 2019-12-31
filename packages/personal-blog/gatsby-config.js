@@ -4,10 +4,9 @@ require('dotenv').config({
 
 module.exports = {
   siteMetadata: {
-    title: `StoryHub`,
-    author: `Monnisa`,
-    about: `Breakfast procuring no end happiness allowance assurance frank. Met simplicity nor difficulty unreserved who. Entreaties mr conviction dissimilar me
-    astonished estimating cultivated.`,
+    title: `Thanh Nguyen's blog`,
+    author: `Thanh Nguyen`,
+    about: `Handsome, single and available`,
     description: `A Gatsby Blog`,
     siteUrl: `https://storyhub-personal-tarex.redq.now.sh`,
   },
@@ -117,7 +116,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-        endpoint: 'https://netlify.us4.list-manage.com/subscribe/post?u=f2254c50b4c9b834a6f7fa225&amp;id=a54b89dc69',
+        endpoint:
+          'https://netlify.us4.list-manage.com/subscribe/post?u=f2254c50b4c9b834a6f7fa225&amp;id=a54b89dc69',
       },
     },
     {

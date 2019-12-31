@@ -10,7 +10,7 @@ const ContactPage: React.FunctionComponent<ContactPageProps> = props => {
     <Layout>
       <SEO
         title="Contact Us"
-        description="StoryHub is a beautiful Gatsby Blog theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website."
+        description="Thanh Nguyen's blog is a beautiful React Blog theme designed to showcase your work in style. Perfect for designers, artists, photographers and developers to use for their portfolio website."
       />
 
       <Contact />
