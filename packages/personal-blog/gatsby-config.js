@@ -7,8 +7,9 @@ module.exports = {
     title: `Thanh Nguyen's blog`,
     author: `Thanh Nguyen`,
     about: `Handsome, single and available`,
-    description: `A Gatsby Blog`,
-    siteUrl: `https://storyhub-personal-tarex.redq.now.sh`,
+    nickname: `Dark Angel`,
+    description: `A React Blog`,
+    siteUrl: `https://google.com`,
   },
   plugins: [
     {
@@ -92,8 +93,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StoryHub - Personal Blog`,
-        short_name: `StoryHub`,
+        name: `React - Personal Blog`,
+        short_name: `Thanh Nguyen's Blog`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

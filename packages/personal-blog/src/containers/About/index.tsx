@@ -63,7 +63,7 @@ const About: React.FunctionComponent<AboutProps> = props => {
   return (
     <AboutWrapper>
       <AboutPageTitle>
-        <h2>About StoryHub</h2>
+        <h2>About Thanh Nguyen's blog</h2>
         <p>
           Thanh Nguyen's blog is a beautiful React Blog theme designed to showcase your
           work in style. Perfect for designers, artists, photographers and
@@ -78,13 +78,13 @@ const About: React.FunctionComponent<AboutProps> = props => {
       <AboutDetails>
         <h2>Hey there, what’s up?</h2>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
+          React Team is a creative agency specializing in building scalable,
           high-performance web & mobile application. Our main concern is
           creating more value into the application so that can help our
           customers to grow their business.
         </p>
         <p>
-          RedQ Team is a creative agency specializing in building scalable,
+          React Team is a creative agency specializing in building scalable,
           high-performance web & mobile application. Our main concern is
           creating more value into the application so that can help our
           customers to grow their business.
