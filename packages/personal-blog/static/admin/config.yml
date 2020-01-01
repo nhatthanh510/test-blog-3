@@ -2,6 +2,7 @@ backend:
   name: github
   repo: nhatthanh510/test-blog-3
   branch: master
+  base_url: https://api.netlify.com
 
 media_folder: static/assets
 public_folder: assets
