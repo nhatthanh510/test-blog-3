@@ -7,8 +7,8 @@ public_folder: packages/personal-blog/public
 collections:
   - name: blog
     label: Blog
-    folder: "packages/personal-blog/content/blog/{{title}}"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    folder: packages/personal-blog/content/blog
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}/index.md"
     create: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
