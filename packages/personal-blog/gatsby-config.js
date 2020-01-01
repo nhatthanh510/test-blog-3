@@ -12,6 +12,7 @@ module.exports = {
     siteUrl: `https://google.com`,
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
