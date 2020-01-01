@@ -1,15 +1,17 @@
 backend:
   name: github
   repo: nhatthanh510/test-blog-3
-  media_folder: static/assets
+
+media_folder: static/assets
 public_folder: assets
 collections:
   - name: blog
     label: Blog
-    folder: blog
+    folder: content/blog
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
-      - { name: title, label: Title }
-      - { name: body, label: Body, widget: markdown }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
