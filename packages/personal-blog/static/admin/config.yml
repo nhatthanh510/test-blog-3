@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: nhatthanh510/test-blog-
+  repo: nhatthanh510/test-blog-3
   branch: master
   base_url: https://thanhnguyen.netlify.com/
 
