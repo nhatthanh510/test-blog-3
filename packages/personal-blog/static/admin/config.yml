@@ -1,6 +1,8 @@
 backend:
   name: github
-  repo: nhatthanh510/test-blog-3
+  repo: nhatthanh510/test-blog-
+  branch: master
+  base_url: https://thanhnguyen.netlify.com/
 
 media_folder: static/assets
 public_folder: assets
